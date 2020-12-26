@@ -1,0 +1,46 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+h1 {
+color: pink;
+}
+
+.testing {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+
+/* NAV */
+
+ul.topNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.topNav {
+  float: left;
+}
+
+li.topNav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.topNav a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
